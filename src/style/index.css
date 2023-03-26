@@ -1,7 +1,3 @@
-/* * {
-  border: 1px red solid;
-} */
-
 .filters {
   background: white;
   width: 100%;
@@ -142,15 +138,18 @@
   .rigth {
     justify-content: center !important;
   }
-  .filters{
-    padding: 0 !important;
-  }
   .left li {
-    width: 83.5px;
+    width: 77.5px;
     display: flex;
     align-items: end;
   }
   .right li {
     width: 10px !important;
+  }
+  .filters{
+    padding: 0 !important;
+  }
+  .filters .rigth li {
+    margin-top: 10px;
   }
 }
